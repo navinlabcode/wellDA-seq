@@ -10,7 +10,3 @@ It includes: 1) codes for processing and analyzing wellDA-seq data, and 2) codes
 - <kbd>analysis</kbd>. Codes of computational analysis used in the manuscript. This folder is organized in the order of applications. 
 - <kbd>figure</kbd>. Codes of data visualization shown in the manuscript. This folder is organized in the order of figures. 
 - <kbd>data_portal</kbd>. Data objects of input and output. 
-
-# Installing the required tools
-
-See the folder [install](https://github.com/navinlabcode/wellDA-seq/tree/main/install). 
