@@ -3,7 +3,7 @@
 In this minimal, reproducible example of wellDA-seq, we will address the following questions/tasks: 
 1) how to preprocess the wellDA-seq data to create analysis-ready data objects?
 2) how to identify subclones and cell types (or states)?
-3) how to investigate the interplay of CNA and ATAC data (e.g., the GtoE and EbyG scores and the plasticity/heritability score)?
+3) how to investigate the interplay of CNA events and open/closed chromatin regions (e.g., the GtoE and EbyG scores, and the plasticity/heritability score)?
 
 This tutorial forms the foundation of all analysis that we performed on all samples in the manuscript. 
 
@@ -43,4 +43,14 @@ Expected result:
 
 ### 4. Creating an analysis-ready co-assay data object
 
+See the detailed [instruction](xxx)
+
+Expected result:
+(xxx)
+
+### 5. GtoE and EbyG score
+
+### 6. Global concordance score between genotypes and chromatin accessibility profiles
+
+### 7. Heritable and plastic tumor phenotypes
 
