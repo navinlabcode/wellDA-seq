@@ -1,17 +1,46 @@
-# A minimal, producible example of wellDA-seq data
+# A minimal, reproducible example of analyzing wellDA-seq data
 
-Here, we will show you how to 1) preprocess a wellDA-seq data to create analysis-ready objects, 2) perform analysis of identifying subclones and cell types, and 3) visualizing and analyzing the interplay of CNA and ATAC data.
+In this minimal, reproducible example of wellDA-seq, we will address the following questions/tasks: 
+1) how to preprocess the wellDA-seq data to create analysis-ready data objects?
+2) how to identify subclones and cell types (or states)?
+3) how to investigate the interplay of CNA and ATAC data (e.g., the GtoE and EbyG scores and the plasticity/heritability score)?
 
-This tutorial form the foundation of all analysis that we performed on all other samples in the manuscript
+This tutorial forms the foundation of all analysis that we performed on all samples in the manuscript. 
 
 ## Software requirement
 
-In brief, we will start proprocessing by using the single-cell [CNV pipeline](https://github.com/navinlabcode/CNV_pipeline) to preprocess the DNA data and using [scATAC-pro](https://github.com/Puriney/scATAC-pro) to proprocess the ATAC data. Then we will create analysis-ready data object for DNA using [copykit](https://github.com/navinlabcode/copykit) and for ATAC using [ArchR](https://github.com/GreenleafLab/ArchR) and [Signac](https://stuartlab.org/signac/). 
+In brief, we need the following key tools: 
+- preprocessing the DNA data by single-cell [CNV pipeline](https://github.com/navinlabcode/CNV_pipeline).
+- preprocessing the ATAC data by [scATAC-pro](https://github.com/Puriney/scATAC-pro) and [ArchR](https://github.com/GreenleafLab/ArchR).
+- creating an analysis-ready DNA object by [copykit](https://github.com/navinlabcode/copykit).
+- creating an analysis-ready ATAC object by [Signac](https://stuartlab.org/signac/).
 
-See the folder "[wellDA-seq/install](https://github.com/navinlabcode/wellDA-seq/tree/main/install)" for detailed instruction. 
+See the folder [wellDA-seq/install](https://github.com/navinlabcode/wellDA-seq/tree/main/install) for detailed instruction of installing software requirement. 
 
-## Proprocessing
+## Outline
 
-## Creating an analysis-ready scCNA data object
+### 1. Proprocessing
 
-## Creating an analysis-ready scATAC data object
+See the detailed [instruction](xxx)
+
+Expected result:
+(xxx)
+
+
+### 2. Creating an analysis-ready scCNA data object
+
+See the detailed [instruction](xxx)
+
+Expected result:
+(xxx)
+
+### 3. Creating an analysis-ready scATAC data object
+
+See the detailed [instruction](xxx)
+
+Expected result:
+(xxx)
+
+### 4. Creating an analysis-ready co-assay data object
+
+
