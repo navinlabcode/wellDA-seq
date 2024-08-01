@@ -23,7 +23,7 @@ Here, we use the real sample P8 (DCIS66T_chip2) in the manuscript for demonstrat
 
 ### 1. Proprocessing
 
-See the detailed in [01.preprocessing.md](xxx)
+See the detailed instruction in [01.preprocessing.md](xxx)
 
 Input: FASTQ files of the DNA and ATAC modality data. 
 
@@ -33,21 +33,21 @@ Expected result:
 
 ### 2. Creating an analysis-ready scCNA data object
 
-See the detailed [02.scATAC.md](xxx)
+See the detailed instruction in [02.scATAC.md](xxx)
 
 Expected result:
 (xxx)
 
 ### 3. Creating an analysis-ready scATAC data object
 
-See the detailed [03.scCNA.md](xxx)
+See the detailed instruction in [03.scCNA.md](xxx)
 
 Expected result:
 (xxx)
 
 ### 4. Creating an analysis-ready co-assay data object
 
-See the detailed [04.wellDA.md](xxx)
+See the detailed instruction in [04.wellDA.md](xxx)
 
 Expected result:
 (xxx)
