@@ -55,8 +55,7 @@ Expected result:
 ├── objd.rds          <--- Copykit object
 ```
 
-<p align='center'><img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/02.coda.vennplot.cellnames.beforeinteresection.png?raw=true
-" alt="txt" width="350"></p>
+<p align='center'><img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/02.coda.vennplot.cellnames.beforeinteresection.png?raw=true" alt="txt" width="350"></p>
 
 ### 3. Further analyze the ATAC part
 
