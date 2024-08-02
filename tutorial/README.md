@@ -1,3 +1,5 @@
+<!-- Written by: Yun Yan (https://github.com/Puriney) -->
+
 # A minimal, reproducible example of analyzing wellDA-seq data
 
 In this minimal, reproducible example of wellDA-seq, we will address the following questions/tasks: 
