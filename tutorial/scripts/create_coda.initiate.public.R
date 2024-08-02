@@ -1,3 +1,4 @@
+## Written by: Yun Yan (https://github.com/Puriney)\n\n
 #--------------------------
 # Initiate wellDA object
 #--------------------------

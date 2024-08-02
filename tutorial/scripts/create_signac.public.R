@@ -1,7 +1,7 @@
 #--------------------------
 # Goal: Create ready-signac object purely by Signac
 # The only input is the fragment file
-#
+## Written by: Yun Yan (https://github.com/Puriney)\n\n
 #--------------------------
 library(future)
 options(future.globals.maxSize = 50 * 1024 ^ 3) # for 50 Gb RAM
