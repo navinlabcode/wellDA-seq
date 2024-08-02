@@ -55,14 +55,17 @@ Expected result:
 ├── objd.rds          <--- Copykit object
 ```
 
-<p align='center'><img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/02.coda.vennplot.cellnames.beforeinteresection.png?raw=true" alt="txt" width="350"></p>
+<img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/02.coda.vennplot.cellnames.beforeinteresection.png?raw=true" alt="txt" width="350">
 
 ### 3. Further analyze the ATAC part
 
 See the detailed instruction in [03.wellDA_scATAC_annotation.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/03.wellDA_scATAC_annotation.md)
 
 Expected result:
-(xxx)
+- a Signac object with cell types / states annotated. 
+
+<img src="https://github.com/navinlabcode/wellDA-seq/raw/main/website_resource/tutorial/03.coda_celltype.png?raw=true" alt="txt" width="350">
+
 
 ### 4. Further analyze the CNA part
 
