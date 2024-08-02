@@ -6,11 +6,6 @@ set -e
 sample_name=$1
 assay=$2
 
-# sample_name='hbca_s3_c'
-# assay='atac'
-
-
-
 proj='/volumes/USR1/yyan/project/coda'
 indir=${proj}/fq_aggre/${sample_name}/${assay}
 outdir=${proj}/scatac_pro/${sample_name}/${assay}
@@ -53,11 +48,6 @@ scATAC-pro -s call_peak \
 -i ${outdir}/${STATIC_FOLDER}/mapping_result/${sample_name}.positionsort.MAPQ30.bam \
 -c ${config_path}
 
-# Mannually change the source code to run the PE mode
-# ~/apps/scATAC-pro.installed/scATAC-pro_1.4.0/scripts/call_peak.sh
-# macs2 callpeak \
-# -t ${outdir}/${STATIC_FOLDER}/mapping_result/${sample_name}.positionsort.MAPQ30.bam \
-# --outdir ${outdir}/${STATIC_FOLDER}/peaks/MACS2 -n s1 -f BAMPE -q 0.05 -g hs
 touch ${outdir}/_done_3_peakcalling.txt
 fi
 
@@ -106,53 +96,3 @@ scATAC-pro -s get_bam4Cells \
 touch ${outdir}/_done_8_get_bam4Cells.txt
 fi
 
-
-# if [[ ! -e _done_.txt ]]; then
-#   echo
-# 
-#   touch ${outdir}/_done_.txt
-# fi
-#     ## after running the above module, you can run module report (list below)
-#     ## to generate first page of the summary report
-#     $ scATAC-pro -s rmDoublets
-#                  -i ${outdir}/${STATIC_FOLDER}//filtered_matrix/PEAK_CALLER/CELL_CALLER/matrix.rds,0.03 (0.03 is the expected fraction of doublets ) 
-#                  -c ${config_path}
-
-
-# Then below I can use Signac
-if [[ ! -e _done_clustering.txt ]]; then
-echo clustering
-scATAC-pro -s clustering \
--i ${outdir}/${STATIC_FOLDER}//filtered_matrix/MACS2/FILTER/matrix.rds \
--c ${config_path}
-touch ${outdir}/_done_clustering.txt
-fi
-
-# 
-#     $ scATAC-pro -s motif_analysis
-#                  -i ${outdir}/${STATIC_FOLDER}//filtered_matrix/PEAK_CALLER/CELL_CALLER/matrix.rds (or matrix.mtx) 
-#                  -c ${config_path}
-#                  
-#     $ scATAC-pro -s split_bam
-#                  -i ${outdir}/${STATIC_FOLDER}//downstream_analysis/PEAK_CALLER/CELL_CALLER/cell_cluster_table.tsv
-#                  -c ${config_path}
-# 
-#     $ scATAC-pro -s footprint ## supporting comparison two groups of cell clusters, and one-vs-rest
-#                  -i 0,1  ## or '0:3,1:2' (group1 consist of cluster0,3, and group2 for cluster1,2)) or 'one,rest' (all one-vs-rest comparison)
-#                  -c ${config_path}
-#                  
-#     $ scATAC-pro -s runCicero
-#                  -i ${outdir}/${STATIC_FOLDER}//downstream_analysis/PEAK_CALLER/CELL_CALLER/seurat_obj.rds
-#                  -c ${config_path}
-# 
-#     $ scATAC-pro -s runDA
-#                  -i ${outdir}/${STATIC_FOLDER}//downstream_analysis/PEAK_CALLER/CELL_CALLER/seurat_obj.rds,0:1:3,2  ## group1 consist of cluster 0,1,and 3; group2 cluster2 
-#                  -c ${config_path}
-#                  
-#     $ scATAC-pro -s runGO
-#                  -i ${outdir}/${STATIC_FOLDER}//filtered_matrix/PEAK_CALLER/CELL_CALLER/differential_accessible_features_0:1:3_vs_2.tsv,  
-#                  -c ${config_path}
-#                  
-#     $ scATAC-pro -s report
-#                  -i ${outdir}/${STATIC_FOLDER}//summary
-#                  -c ${config_path}
