@@ -46,7 +46,17 @@ Expected result:
 See the detailed instruction in [02.wellDA_initiation.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/02.wellDA_initiation.md)
 
 Expected result:
-(xxx)
+- a folder of wellDA data
+
+```
+├── metadata.csv      <--- data frame of single-cell metadata
+├── metadata.df.rds   <--- data frame of single-cell metadata
+├── obja.rds          <--- Signac object
+├── objd.rds          <--- Copykit object
+```
+
+<p align='center'><img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/02.coda.vennplot.cellnames.beforeinteresection.png?raw=true
+" alt="txt" width="350"></p>
 
 ### 3. Further analyze the ATAC part
 
