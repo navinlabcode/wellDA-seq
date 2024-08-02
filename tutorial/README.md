@@ -28,8 +28,17 @@ See the detailed instruction in [01.preprocessing.md](https://github.com/navinla
 Input: FASTQ files of the DNA and ATAC modality data. 
 
 Expected result:
-- preliminary Signac object for ATAC
-- preliminary Copykit object for DNA
+- a preliminary Signac object for ATAC
+- a preliminary Copykit object for DNA
+
+
+| item                  | ATAC                                                                                                                                                | DNA                                                                                                                                                           |
+| --------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Cell Dispensing       | <img src="https://github.com/navinlabcode/wellDA-seq/raw/main/website_resource/tutorial/atac.wafargen_physical_dispense.png?raw=true" width="250">  | <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/dna_dispense.png?raw=true" alt="txt" width="250">                    |
+| Basic Quality Control | <img src="https://github.com/navinlabcode/wellDA-seq/raw/main/website_resource/tutorial/atac_QC_basic.png?raw=true" alt="txt" width="250">          | <img src="https://github.com/navinlabcode/wellDA-seq/raw/main/website_resource/tutorial/dna_snapshot_CNApipeline.png?raw=true" alt="txt" width="250">         |
+| Basic Clustering      | <img src="https://github.com/navinlabcode/wellDA-seq/raw/main/website_resource/tutorial/atac_overview_umap_snn.png?raw=true" alt="txt" width="250"> | <img src="https://github.com/navinlabcode/wellDA-seq/raw/main/website_resource/tutorial/dna.clean.plotHeatmap.clones.004.png?raw=true" alt="txt" width="250"> |
+
+
 
 
 ### 2. Creating an analysis-ready scCNA data object
