@@ -41,30 +41,35 @@ Expected result:
 
 
 
-### 2. Creating an analysis-ready scCNA data object
+### 2. Initiating the wellDA data
 
-See the detailed instruction in [02.scATAC.md](xxx)
-
-Expected result:
-(xxx)
-
-### 3. Creating an analysis-ready scATAC data object
-
-See the detailed instruction in [03.scCNA.md](xxx)
+See the detailed instruction in [02.wellDA_initiation.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/02.wellDA_initiation.md)
 
 Expected result:
 (xxx)
 
-### 4. Creating an analysis-ready co-assay data object
+### 3. Further analyze the ATAC part
 
-See the detailed instruction in [04.wellDA.md](xxx)
+See the detailed instruction in [03.wellDA_scATAC_annotation.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/03.wellDA_scATAC_annotation.md)
 
 Expected result:
 (xxx)
 
-### 5. GtoE and EbyG score
+### 4. Further analyze the CNA part
 
-### 6. Global concordance score between genotypes and chromatin accessibility profiles
+See the detailed instruction in [04.wellDA_scCNA_annotation.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/04.wellDA_scCNA_annotation.md)
 
-### 7. Heritable and plastic tumor phenotypes
+Expected result:
+(xxx)
+
+### 5. Refine the wellDA data
+
+See the detailed instruction in [05.wellDA_refine.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/05.wellDA_refine.md)
+
+
+### 6. GtoE and EbyG score
+
+### 7. Global concordance score between genotypes and chromatin accessibility profiles
+
+### 8. Heritable and plastic tumor phenotypes
 
