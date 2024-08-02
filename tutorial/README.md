@@ -23,12 +23,13 @@ Here, we use the real sample P8 (DCIS66T_chip2) in the manuscript for demonstrat
 
 ### 1. Proprocessing
 
-See the detailed instruction in [01.preprocessing.md](xxx)
+See the detailed instruction in [01.preprocessing.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/01.preprocessing.md)
 
 Input: FASTQ files of the DNA and ATAC modality data. 
 
 Expected result:
-(xxx)
+- preliminary Signac object for ATAC
+- preliminary Copykit object for DNA
 
 
 ### 2. Creating an analysis-ready scCNA data object
