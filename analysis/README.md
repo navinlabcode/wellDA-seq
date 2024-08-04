@@ -1,7 +1,6 @@
 # Analysis
 
-## Routin analysis
+Download the data objects of each sample.
 
-- identifying subclones
-- annotating cell types and states
+Refer to [tutorial](https://github.com/navinlabcode/wellDA-seq/tree/main/tutorial), which contains all the pre-processing and analysis for each sample. 
 
