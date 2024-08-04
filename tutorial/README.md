@@ -78,7 +78,7 @@ See the detailed instruction in [04.wellDA_scCNA_annotation.md](https://github.c
 
 | Before data cleaning the aneuploid cells                                                                                                                                | After data cleaning the aneuploid cells                                                                                                                                |
 | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/03.aneu.before.cna.heatmap.combo_coda.subclones.001.png?raw=true" width="400"> | <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/03.aneu.after.cna.heatmap.combo_coda.subclones.001.png?raw=true" width="400"> |
+| <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/04.aneu.before.cna.heatmap.combo_coda.subclones.001.png?raw=true" width="400"> | <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/04.aneu.after.cna.heatmap.combo_coda.subclones.001.png?raw=true" width="400"> |
 
 ### 5. Refine the wellDA data
 
