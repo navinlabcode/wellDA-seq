@@ -90,8 +90,29 @@ See the detailed instruction in [05.wellDA_refine.md](https://github.com/navinla
 <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/05.cna.heatmap.combo_coda.clones.001.png?raw=true" alt="txt" width="700">
 
 ### 6. GtoE and EbyG score
+See the detailed instruction in [06.GtoE_EbyG.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/06.GtoE_EbyG.md)
+
+*Expected result*:
+- GtoE and EbyG scores
+
+<img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/06.cna.heatmap.consensus_DAB_DAP_DACH_birdview.png?raw=true" width="800">
+
 
 ### 7. Global concordance score between genotypes and chromatin accessibility profiles
+See the detailed instruction in [07.global_concordance.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/07.global_concordance.md)
+
+
+*Expected result*:
+
+<img src="" width='600'>
+
+
 
 ### 8. Heritable and plastic tumor phenotypes
+
+See the detailed instruction in [08.plasticity_heritability.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/08.plasticity_heritability.md)
+
+*Expected result*:
+
+<img src="" width='600'>
 
