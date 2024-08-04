@@ -29,7 +29,7 @@ See the detailed instruction in [01.preprocessing.md](https://github.com/navinla
 
 Input: FASTQ files of the DNA and ATAC modality data. 
 
-Expected result:
+*Expected result*:
 - a preliminary Signac object for ATAC
 - a preliminary Copykit object for DNA
 
@@ -47,7 +47,7 @@ Expected result:
 
 See the detailed instruction in [02.wellDA_initiation.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/02.wellDA_initiation.md)
 
-Expected result:
+*Expected result*:
 - a folder of wellDA data
 
 ```
@@ -63,7 +63,7 @@ Expected result:
 
 See the detailed instruction in [03.wellDA_scATAC_annotation.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/03.wellDA_scATAC_annotation.md)
 
-Expected result:
+*Expected result*:
 - a Signac object with cell types / states annotated. 
 
 <img src="https://github.com/navinlabcode/wellDA-seq/raw/main/website_resource/tutorial/03.coda_celltype.png?raw=true" alt="txt" width="350">
@@ -73,7 +73,7 @@ Expected result:
 
 See the detailed instruction in [04.wellDA_scCNA_annotation.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/04.wellDA_scCNA_annotation.md)
 
-Expected result:
+*Expected result*:
 - a Copykit object with the diploid and low-quality cells removed and the tentative subclones determined. 
 
 | Before data cleaning the aneuploid cells                                                                                                                                | After data cleaning the aneuploid cells                                                                                                                                |
@@ -84,6 +84,10 @@ Expected result:
 
 See the detailed instruction in [05.wellDA_refine.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/05.wellDA_refine.md)
 
+*Expected result*:
+- an analysis-ready folder of wellDA-seq data
+
+<img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/05.cna.heatmap.combo_coda.clones.001.png?raw=true" alt="txt" width="700">
 
 ### 6. GtoE and EbyG score
 
