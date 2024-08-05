@@ -85,7 +85,7 @@ See the detailed instruction in [04.wellDA_scCNA_annotation.md](https://github.c
 See the detailed instruction in [05.wellDA_refine.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/05.wellDA_refine.md)
 
 *Expected result*:
-- an analysis-ready folder of wellDA-seq data
+- an analysis-ready folder of wellDA-seq data for each sample
 
 <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/05.cna.heatmap.combo_coda.clones.001.png?raw=true" alt="txt" width="700">
 
@@ -93,7 +93,7 @@ See the detailed instruction in [05.wellDA_refine.md](https://github.com/navinla
 See the detailed instruction in [06.GtoE_EbyG.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/06.GtoE_EbyG.md)
 
 *Expected result*:
-- GtoE and EbyG scores
+- GtoE and EbyG scores for each sample
 
 <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/06.cna.heatmap.consensus_DAB_DAP_DACH_birdview.png?raw=true" width="800">
 
@@ -103,8 +103,12 @@ See the detailed instruction in [07.global_concordance.md](https://github.com/na
 
 
 *Expected result*:
+- a global concordance score for each sample
 
-<img src="" width='600'>
+
+| UMAP of CNA and ATAC of single-cell colored by clones       | <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/07.coda_crossdimplot.clones.png?raw=true" width="600"> |
+| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
+| Global concordance score between genotypes and epigenotypes | <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/07.heatmap.GP_concordance.png?raw=true" width="600">   |
 
 
 
