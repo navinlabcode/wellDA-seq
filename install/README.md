@@ -19,3 +19,11 @@
 | ggtree             | visualization | https://www.bioconductor.org/packages/release/bioc/html/ggtree.html     |
 | ComplexHeatmap     | visualization | https://bioconductor.org/packages/release/bioc/html/ComplexHeatmap.html |
 | ggpubr             | visualization | https://rpkgs.datanovia.com/ggpubr/                                     |
+
+
+## Python and some key Python packages
+
+| Item             | Purpose    | Link                                                 |
+| ---------------- | ---------- | ---------------------------------------------------- |
+| Python (3.10.12) | programing | https://www.anaconda.com/download                    |
+| MEDICC2          | CNA        | https://bitbucket.org/schwarzlab/medicc2/src/master/ |
