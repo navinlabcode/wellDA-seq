@@ -131,10 +131,7 @@ if (F) {
 
 coaccess_cutoff_override <- 0
 
-# sample_name <- 'DCIS66T_chip2'
-sample_name <- 'DCIS22T'
-sample_name <- 'DCIS35T'
-# sample_name = 'mda231wt_kaile'
+sample_name <- 'DCIS66T_chip2'
 args  <- commandArgs(trailingOnly = TRUE)
 if (length(args) > 0) { 
   sample_name = args[[1]] 

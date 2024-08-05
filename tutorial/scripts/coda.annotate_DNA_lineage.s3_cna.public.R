@@ -414,7 +414,7 @@ calc_gearyc <- function(w, x) {
 
 
 calc_heritability_score_gearyc <- function(d, x) {
-  ## d: distance between clones
+  ## d: distance between clones 
   ## x: values for the clones
   max_d <- apply(d, 1, max)
   w <- exp(-1 * d^2 / max_d^2)
@@ -435,18 +435,6 @@ calc_heritability_score_gearyc_hnull <- function(d, x, ntimes=1e3, ncores=8) {
   o <- sort(as.numeric(unlist(o)))
 }
 
-
-if (F) {
-  w <- matrix(c(0, 1/3, 1/3, 0, 0, 
-                1/2, 0, 1/3, 1/3, 0, 
-                1/2, 1/3, 0, 1/3, 0, 
-                0, 1/3, 1/3, 0, 1, 
-                0, 0, 0, 1/3, 0), byrow = F, nrow = 5, ncol = 5)
-  x <- c(8, 6, 6, 3, 2)
-  rownames(w) <- colnames(w) <- names(x) <- letters[1:5]
-  calc_gearyc(w, x)
-  calc_heritability_score_gearyc(w, x)
-}
 phenotypes_sig_diverse_heritability_gearyc <- c()
 phenotypes_sig_diverse_heritability_gearyc_pval_up <- c()
 phenotypes_sig_diverse_heritability_gearyc_pval_dn <- c()
@@ -508,16 +496,6 @@ calc_heritability_score_orig <- function(d1, d2) {
     'pval' = as.numeric(o$p.value))
 }
 
-if (F) {
-  ## not helpful
-  phenotypes_sig_diverse_heritability_orig_test <- sapply(
-    phenotypes_sig_diverse_opts, function(xx) {
-      calc_heritability_score_orig(
-        as.dist( log((cna_dist_mat+1e-3)/2) ), 
-        dist(mat_pheno_viz_zscore[, xx, drop=F]) )
-    }
-)
-}
 phenotypes_sig_diverse_heritability_orig_test <- sapply(
   phenotypes_sig_diverse_opts, function(xx) {
     calc_heritability_score_orig(
