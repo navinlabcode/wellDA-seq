@@ -106,11 +106,8 @@ See the detailed instruction in [07.global_concordance.md](https://github.com/na
 - a global concordance score for each sample
 
 
-| UMAP of CNA and ATAC of single-cell colored by clones       | <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/07.coda_crossdimplot.clones.png?raw=true" width="600"> |
-| ----------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------- |
-| Global concordance score between genotypes and epigenotypes | <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/07.heatmap.GP_concordance.png?raw=true" width="600">   |
-
-
+| <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/07.coda_crossdimplot.clones.png?raw=true" width="600"> <img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/07.heatmap.GP_concordance.png?raw=true" width="600"> |
+| --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ### 8. Heritable and plastic tumor phenotypes
 
