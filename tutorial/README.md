@@ -114,6 +114,8 @@ See the detailed instruction in [07.global_concordance.md](https://github.com/na
 See the detailed instruction in [08.plasticity_heritability.md](https://github.com/navinlabcode/wellDA-seq/blob/main/tutorial/08.plasticity_heritability.md)
 
 *Expected result*:
+- Heritable/plastic score of tumorigenesis-related gene signatures for each sample
 
-<img src="" width='600'>
+
+<img src="https://github.com/navinlabcode/wellDA-seq/blob/main/website_resource/tutorial/08.concordance.heritability.medic2.msigdb_hallmark.zscore.birdview_SigOnly.combo.png?raw=true" width="600">
 
